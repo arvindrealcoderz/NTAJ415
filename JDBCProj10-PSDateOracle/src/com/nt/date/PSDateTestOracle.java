@@ -8,7 +8,8 @@ import java.text.SimpleDateFormat;
 import java.util.Scanner;
 
 public class PSDateTestOracle {
-	private static final String INSERT_QUERY_TEST="INSERT INTO PERSON_INFO_DATES (PID,PNAME,DOB,DOJ,DOM) VALUES (PID_SEQ.NEXTVAL,?,?,?,?)";
+	private static final String INSERT_QUERY_TEST=
+			"INSERT INTO PERSON_INFO_DATES (PID,PNAME,DOB,DOJ,DOM) VALUES (PID_SEQ.NEXTVAL,?,?,?,?)";
 	
 	public static void main(String[] args) {
 		Scanner sc=null;
